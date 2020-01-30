@@ -1,20 +1,21 @@
 {
-	"name": "theme-dracula",
+	"name": "theme-dracula-refined",
 	"version": "2.19.2",
-	"displayName": "Dracula Official",
-	"homepage": "https://draculatheme.com/",
-	"description": "Official Dracula Theme. A dark theme for many editors, shells, and more.",
-	"publisher": "dracula-theme",
+	"displayName": "Dracula Refined",
+	"homepage": "https://github.com/mathcale/dracula-theme-refined",
+	"description": "Yet another Dracula Official Theme fork, but better (in my opinio)",
+	"publisher": "mathcale",
 	"license": "MIT",
 	"scripts": {
 		"build": "node ./scripts/build.js",
 		"lint": "node ./scripts/lint.js",
 		"package": "vsce package -o ./bin/dracula.vsix",
 		"vscode:prepublish": "npm run build",
-        "vsce-publish": "vsce publish"
+		"vsce-publish": "vsce publish"
 	},
 	"maintainers": [
-		"Derek P Sifford <dereksifford@gmail.com>"
+		"Derek P Sifford <dereksifford@gmail.com>",
+		"Matheus Calegaro <matheuscalegaro@outlook.com>"
 	],
 	"contributors": [
 		"Krzysztof Wisznarewski",
@@ -26,10 +27,10 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/dracula/visual-studio-code.git"
+		"url": "https://github.com/mathcale/dracula-theme-refined.git"
 	},
 	"bugs": {
-		"url": "https://github.com/dracula/visual-studio-code/issues"
+		"url": "https://github.com/mathcale/dracula-theme-refined/issues"
 	},
 	"engines": {
 		"vscode": "^1.13.0"
@@ -39,6 +40,7 @@
 	],
 	"keywords": [
 		"dracula",
+		"dracula-refined",
 		"dark",
 		"theme",
 		"color-theme"
@@ -51,14 +53,9 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "Dracula",
+				"label": "Dracula Refined",
 				"uiTheme": "vs-dark",
 				"path": "./theme/dracula.json"
-			},
-			{
-				"label": "Dracula Soft",
-				"uiTheme": "vs-dark",
-				"path": "./theme/dracula-soft.json"
 			}
 		]
 	},
@@ -67,10 +64,5 @@
 		"prettier": "^1.19.1",
 		"tinycolor2": "^1.4.1",
 		"vsce": "^1.71.0"
-	},
-	"__metadata": {
-		"id": "4e44877c-1c8d-4f9c-ba86-1372d0fbeeb1",
-		"publisherDisplayName": "Dracula Theme",
-		"publisherId": "fbb3d024-f8f2-460c-bdb5-99552f6d8c4b"
 	}
 }
