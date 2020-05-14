@@ -1,9 +1,9 @@
 ## How to contribute
 
-1. Fork and clone this repo. `git clone https://github.com/<YOUR-USERNAME>/visual-studio-code`
+1. Fork and clone this repo. `git clone https://github.com/<YOUR-USERNAME>/dracula-theme-refined`
 2. Create a branch for your changes. `git checkout -b my-new-feature`
 3. Install dependencies. `npm install`
-4. Open the *visual-studio-code* folder in vscode.
+4. Open the *dracula-theme-refined* folder in vscode.
 5. Hack away.
 6. Build and examine your changes in an Extension Development Host.
     * Debug > Start Debugging or use F5 as a shortcut
