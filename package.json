@@ -1,9 +1,9 @@
 {
 	"name": "theme-dracula-refined",
-	"version": "2.21.0",
+	"version": "2.22.0-refined",
 	"displayName": "Dracula Refined",
 	"homepage": "https://github.com/mathcale/dracula-theme-refined",
-	"description": "Yet another Dracula Official Theme fork, but better (in my opinio)",
+	"description": "Yet another Dracula Official Theme fork, but better (in my opinion)",
 	"publisher": "mathcale",
 	"license": "MIT",
 	"scripts": {

@@ -4,6 +4,7 @@ maintainers:
   - Derek P Sifford <dereksifford@gmail.com>
   - Matheus Calegaro <matheuscalegaro@outlook.com>
 semanticClass: theme.dracula-refined
+semanticHighlighting: true
 dracula:
   base:
     - &BG        '#282A36'
