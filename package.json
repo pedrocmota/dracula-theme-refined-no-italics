@@ -1,10 +1,10 @@
 {
-	"name": "theme-dracula-refined",
-	"version": "2.22.3",
-	"displayName": "Dracula Refined",
-	"homepage": "https://github.com/mathcale/dracula-theme-refined",
-	"description": "Yet another Dracula Official Theme fork, but better (in my opinion)",
-	"publisher": "mathcale",
+	"name": "dracula-theme-refined-no-italics",
+	"version": "1.0.0",
+	"displayName": "Dracula Refined (without italics)",
+	"homepage": "https://github.com/pedrocmota/dracula-theme-refined-no-italics",
+	"description": "Yet another Dracula Official Theme fork, but better (in my opinion) and without italics",
+	"publisher": "pedrocmota",
 	"license": "MIT",
 	"scripts": {
 		"build": "node ./scripts/build.js",
@@ -23,14 +23,12 @@
 		"Eric Jackson",
 		"Elliott Pogue",
 		"Ajit Singh",
-		"Teddy Bradford"
+		"Teddy Bradford",
+		"Pedro Mota"
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/mathcale/dracula-theme-refined.git"
-	},
-	"bugs": {
-		"url": "https://github.com/mathcale/dracula-theme-refined/issues"
+		"url": "https://github.com/pedrocmota/dracula-theme-refined-no-italics.git"
 	},
 	"engines": {
 		"vscode": "^1.13.0"
@@ -41,15 +39,12 @@
 	"keywords": [
 		"dracula",
 		"dracula-refined",
+		"without italics",
 		"dark",
 		"theme",
 		"color-theme"
 	],
 	"icon": "icon.png",
-	"galleryBanner": {
-		"color": "#3c4557",
-		"theme": "dark"
-	},
 	"contributes": {
 		"themes": [
 			{

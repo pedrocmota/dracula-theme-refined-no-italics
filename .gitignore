@@ -1,4 +1,4 @@
 node_modules/
-/theme/
-/tests/
+theme/
+tests/
 bin/
